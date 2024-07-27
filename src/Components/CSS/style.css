@@ -793,7 +793,7 @@ a {
 /* section eight */
 
 .sec-eight {
-    background: url(/src/assets/Rectangle\ 7.svg);
+    background: url(/src/assets/Rectangle7.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1023,7 +1023,7 @@ form {
 }
 
 .footer .right {
-    background: url(/src/assets/Rectangle\ 9.svg);
+    background: url(/src/assets/Rectangle9.svg);
     width: 914px;
     height: 936px;
     background-size: cover;
