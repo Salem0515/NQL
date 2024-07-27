@@ -25,9 +25,9 @@ import item3 from '../assets/item3.svg';
 import pic1 from '../assets/pic1.svg';
 import pic2 from '../assets/pic2.svg';
 import pic3 from '../assets/pic3.svg';
-import Rectangle_7 from '../assets/Rectangle 7.svg';
+import Rectangle_7 from '../assets/Rectangle7.svg';
 import Rectangle_8 from '../assets/Rectangle 8.svg';
-import Rectangle_9 from '../assets/Rectangle 9.svg';
+import Rectangle_9 from '../assets/Rectangle9.svg';
 import WhatsApp from '../assets/WhatsApp Image 2024-05-23 at 16.44 1.svg';
 
 const NQL = () => {
