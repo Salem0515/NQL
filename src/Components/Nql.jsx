@@ -79,10 +79,17 @@ const NQL = () => {
                 </li>
               </ul>
             </div>
-            <div className="user">
-              <a href="#">
-                <i className="fa-solid fa-user icon"></i>
-              </a>
+            <div className="icons-bar">
+              <div className="menu-bar">
+                <a href="">
+                  <i className="fa-solid fa-bars"></i>
+                </a>
+              </div>
+              <div className="user">
+                <a href="#">
+                  <i className="fa-solid fa-user icon"></i>
+                </a>
+              </div>
             </div>
             <div className="menu-end">
               <a href="#" className="login">
@@ -299,6 +306,8 @@ const NQL = () => {
             </div>
           </div>
         </section>
+
+
         <section className="sec-five">
           <div className="arrows">
             <div className="icon-arrow">
@@ -352,6 +361,8 @@ const NQL = () => {
             </a>
           </div>
         </section>
+
+
         <div className="height">
           <section className="sec-six">
             <div className="arrows">
