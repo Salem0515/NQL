@@ -7,6 +7,11 @@
     transition: all 0.5s linear;
 }
 
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 :root {
     --main-color: #f05326;
     --text-white: #fff;
@@ -17,6 +22,14 @@
     --star: #fec70f;
     --hover: #bd330d;
 }
+
+html, body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
 
 body {
     font-family: "Inter", sans-serif;
@@ -1214,6 +1227,10 @@ input:hover::placeholder {
 /* start root  */
 
 @media (max-width: 480px) {
+
+    body {
+        overflow-x: hidden;
+    }
     .cont-cards {
         display: flex;
         flex-direction: column; /* Stack cards vertically */
@@ -1249,9 +1266,16 @@ input:hover::placeholder {
         margin-top: -20px;
         margin-right: -20px;
     }
+
+   
+
 }
 
+
+
 /* end root  */
+
+/* start header  */
 
 @media (max-width: 1530px) {
     .head {
@@ -1294,6 +1318,18 @@ input:hover::placeholder {
         margin: 0 15px;
     }
 }
+
+@media screen and (max-width: 480px) {
+
+    .head{
+        margin-left: -30px;
+    }
+
+}
+
+/* end header  */
+
+
 /* section one */
 
 @media (max-width: 911px) {
@@ -1436,7 +1472,22 @@ input:hover::placeholder {
         width: 500px;
         margin-left: -80px;
     }
+
+    .sec-two .content-secTwo .icons .small-icons {
+        margin: 0 80px;
+        font-size: 35px;
+
+    }
+
+    .sec-two .cirlce-left {
+        width: 1180px;
+        height: 1200px ;
+    }
+
+
 }
+
+
 
 /* section three */
 @media (max-width: 1000px) {
